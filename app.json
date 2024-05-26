@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Quizzler",
+    "slug": "Quizzler",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/download.jpeg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/download.jpeg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.xh_azeem.Quizzler"
+    },
+    "web": {
+      "favicon": "./assets/download.jpeg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3a2462f4-ef72-4b3e-b0dd-9d23cfaff17b"
+      }
+    }
+  }
+}
